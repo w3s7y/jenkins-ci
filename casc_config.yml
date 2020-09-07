@@ -1,0 +1,8 @@
+jenkins:
+  systemMessage: "babuc-uk"
+  securityRealm:
+    local:
+      allowsSignup: false
+      users:
+        - id: "admin"
+          password: "${JENKINS_ADMIN_PASSWORD_HASH}"
