@@ -1,5 +1,5 @@
 jenkins:
-  systemMessage: "babuc-uk"
+  systemMessage: "Built using configuration-as-code plugin"
   securityRealm:
     local:
       allowsSignup: false
