@@ -1,8 +1,13 @@
+---
 jenkins:
-  systemMessage: "Built using configuration-as-code plugin"
+  systemMessage: "${JENKINS_WELCOME_MESSAGE}"
   securityRealm:
     local:
       allowsSignup: false
       users:
         - id: "admin"
           password: "${JENKINS_ADMIN_PASSWORD_HASH}"
+unclassified:
+  location:
+    adminAddress: "${JENKINS_ADMIN_EMAIL}"
+    url: "${JENKINS_LOCATION_URL}"
