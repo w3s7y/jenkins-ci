@@ -4,3 +4,11 @@ git
 maven
 performance
 build-with-parameters
+job-dsl
+xml-job-to-job-dsl
+kubernetes
+kubernetes-cli
+workflow-cps-global-lib
+workflow-cps
+cloudbees-folder
+folder-properties
